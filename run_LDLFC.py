@@ -42,7 +42,7 @@ def run_LDLFC(dataset):
         
 if __name__ == "__main__":
     
-    run_KF("SJAFFE")
+    run_LDLFC("SJAFFE")
         
 
     
