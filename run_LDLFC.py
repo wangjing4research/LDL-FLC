@@ -42,7 +42,7 @@ def run_LDLFC(dataset):
         
 if __name__ == "__main__":
     
-    run_LDLFC("SJAFFE")
+    run_LDLFC("Scene")
         
 
     
