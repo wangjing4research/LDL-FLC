@@ -90,10 +90,9 @@ def run_KF(dataset):
 
 
 if __name__ == "__main__":
-    datasets = ["SJAFFE", "M2B", "Movie", "RAF_ML", "Flickr_ldl", "Ren", "fbp5500", 
+    datasets = ["M2B", "Movie", "RAF_ML", "Flickr_ldl", "Ren", "fbp5500", 
                 "Gene", "SBU_3DFE", "SCUT_FBP", "Scene", "Twitter_ldl"]
 
-    datasets = ["SJAFFE"]
     for dataset in datasets:
         if len(sys.argv) == 1:
             run_KF(dataset)
