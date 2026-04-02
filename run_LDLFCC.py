@@ -55,6 +55,6 @@ def run_LDLFCC(dataset):
         
 if __name__ == "__main__":
     
-   run_LDLFCC("SJAFFE")
+   run_LDLFCC("Scene")
 
     
